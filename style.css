@@ -1,0 +1,112 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #001220;
+
+}
+
+button.random {
+
+    /* looks of the button */
+    height: 4rem;
+    width: 4rem;
+    border: #8f182c;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: #A7233A;
+    box-shadow: 1em;
+
+    /* postion of the bottom, used absolute here because now can change left,righttop and bottom positioning */
+    display:block;
+    position:absolute;
+}
+
+
+
+/* style for the index html page */
+
+
+div#display {
+    margin-top: 0px;
+    color: #A7233A;
+    width: 50vw;
+    height: 5vh;
+    /* border: solid rgb(201, 32, 32); */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25vw;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+.header{
+    font-size: 4rem;
+    color: whitesmoke;
+    position:absolute;
+    top: 60px;
+    left: 150px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+.Info{
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    position: absolute;
+    top: 230px;
+    left: 450px;
+    
+}
+
+.wrapper{
+    padding-top: 10rem;
+    padding-left: 10rem;
+    position: relative;
+}
+
+.switch{
+
+    color: white;
+    position: absolute;
+    top: 480px;
+    right: 150px;
+    background-color: #A7233A;
+    outline: none;
+    border: solid black;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    font-size: 2rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.switch:hover{
+    background-color: #d42945;
+}
+.svg-bg{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: none;
+    background-image: url("./resources/circle-scatter-haikei.svg");
+    background-size: cover;
+}
