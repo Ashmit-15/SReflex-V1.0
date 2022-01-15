@@ -8,6 +8,7 @@ body{
     width: 100vw;
     position: fixed;
     background-color: #001220;
+    cursor:crosshair;
 
 }
 
